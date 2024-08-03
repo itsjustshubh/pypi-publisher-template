@@ -14,6 +14,7 @@ This repository is a template for publishing Python packages to PyPI and TestPyP
 2. **Run the setup script**:
 
    ```sh
+   chmod +x setup.sh
    ./setup.sh
    ```
 
@@ -33,6 +34,7 @@ This repository is a template for publishing Python packages to PyPI and TestPyP
 Run the following command to publish to TestPyPI:
 
 ```sh
+chmod +x publish_test.sh
 ./publish_test.sh
 ```
 
@@ -41,6 +43,7 @@ Run the following command to publish to TestPyPI:
 Run the following command to publish to PyPI:
 
 ```sh
+chmod +x publish_pypi.sh
 ./publish_pypi.sh
 ```
 
